@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical & Professional Building - Southlake, TX</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Medical & Professional Building</h1>
+        <h2>1100 E. Southlake Blvd, Southlake, TX</h2>
+    </header>
+    <div class="container">
+        <p>Medical and Professional Offices in the best location in Southlake, TX</p>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Property Photo 1">
+            <img src="photo2.jpg" alt="Property Photo 2">
+            <img src="photo3.jpg" alt="Property Photo 3">
+            <img src="photo4.jpg" alt="Property Photo 4">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Medical & Professional Building. All rights reserved.</p>
+    </footer>
+</body>
+</html>
